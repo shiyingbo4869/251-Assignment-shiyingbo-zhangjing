@@ -23,9 +23,7 @@ public class Jtatext extends JFrame{
 	
 	public Jtatext()
 	{
-		super("Test Editor");
-		Date date = new Date();
-		System.out.println(date);
+		super("Test Editor" +new Date());
 		
 		//创建菜单栏(JMenuBar)对象
 		JMenuBar mBar = new JMenuBar();
@@ -219,8 +217,7 @@ public class Jtatext extends JFrame{
 		app.setLocation(200,200);
 		app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		app.setVisible(true);
-		Date date = new Date();
-		System.out.println(date);
+		
 	}
  
 }	
