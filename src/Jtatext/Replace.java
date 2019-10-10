@@ -1,7 +1,5 @@
 package Jtatext;
- 
-/*import java.awt.Color;//颜色
-import java.awt.Font;//字体*/
+
 import java.awt.event.ActionEvent;//事件处理
 import java.awt.event.ActionListener;//事件监听
 import java.io.BufferedReader;
@@ -53,10 +51,7 @@ public class Replace extends JFrame {
 		this.setResizable(false);// 设置框架不可以改变大小
 		this.setTitle("Search Replace");// 设置框架标题
 		this.pnl_mian.setLayout(null);// 设置面板布局管理
-		/*this.pnl_mian.setBackground(Color.cyan);// 设置面板背景颜色*/
 		this.lbl_help.setText("Search Replace");// 设置标签标题
-		/*this.lbl_help.setFont(new Font("宋体", Font.BOLD | Font.ITALIC, 14));// 设置标签字体
-		this.lbl_help.setForeground(Color.RED);// 设置标签字体颜色*/
 		this.lbl_path.setText("filepath:");
 		this.lbl_find.setText("search:");
 		this.lbl_replace.setText("replace:");
