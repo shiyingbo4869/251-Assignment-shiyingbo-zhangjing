@@ -17,11 +17,11 @@ public class LookHelp extends JFrame{
 		Container c = this.getContentPane();
 		c.setLayout(new GridLayout(5,0));
 		
-		JLabel label1 = new JLabel("1¡¢²Ëµ¥À¸µÄ²Ëµ¥Ïî¿Éµã»÷À´Ñ¡Ôñ¹¦ÄÜ¡£");
-		JLabel label2 = new JLabel("2¡¢¡°±à¼­¡±ÀïµÄ¼ôÇĞ¡¢¸´ÖÆ¡¢Õ³Ìù¿ÉÓÃ¿ì½İ¼üCtrl + x¡¢Ctrl + c¡¢Ctrl + vÊµÏÖ¡£");
-		JLabel label3 = new JLabel("3¡¢¡°¸ñÊ½¡±ÀïµÄ¡°×Ô¶¯»»ĞĞ¡±ĞèÒªµãÖĞ²Å¿É½øĞĞ×Ô¶¯»»ĞĞ£¬·ñÔò»áÒ»Ö±ÍùºóĞ´¡£");
-		JLabel label4 = new JLabel("4¡¢²Ëµ¥À¸ÏÂÃæµÄ¸ñÊ½ÊÇÓÃÀ´µ÷½ÚÎÄ±¾µÄ×ÖÌå¡£");
-		JLabel label5 = new JLabel("5¡¢±¾¼ÇÊÂ±¾µÄÈ±µãÊÇÎŞ·¨¸Ä±ä×ÖÌåµÄÑùÊ½£¬´óĞ¡ºÍĞÎÌ¬¡£");
+		JLabel label1 = new JLabel("1ã€menuèœå•æ çš„èœå•é¡¹å¯ç‚¹å‡»æ¥é€‰æ‹©åŠŸèƒ½ã€‚");
+		JLabel label2 = new JLabel("2ã€â€œviewâ€é‡Œçš„å‰ªåˆ‡ã€å¤åˆ¶ã€ç²˜è´´å¯ç”¨å¿«æ·é”®Ctrl + xã€Ctrl + cã€Ctrl + vå®ç°ã€‚");
+		JLabel label3 = new JLabel("3ã€â€œsearchâ€é‡Œçš„â€œè‡ªåŠ¨æ¢è¡Œâ€éœ€è¦ç‚¹ä¸­æ‰å¯è¿›è¡Œè‡ªåŠ¨æ¢è¡Œï¼Œå¦åˆ™ä¼šä¸€ç›´å¾€åå†™ã€‚");
+		JLabel label4 = new JLabel("4ã€èœå•æ ä¸‹é¢çš„æ ¼å¼æ˜¯ç”¨æ¥è°ƒèŠ‚æ–‡æœ¬çš„å­—ä½“ã€‚");
+		JLabel label5 = new JLabel("5ã€æœ¬è®°äº‹æœ¬çš„ç¼ºç‚¹æ˜¯æ— æ³•æ”¹å˜å­—ä½“çš„æ ·å¼ï¼Œå¤§å°å’Œå½¢æ€ã€‚");
 		c.add(label1);c.add(label2);c.add(label3);c.add(label4);c.add(label5);
 	}
 }
