@@ -22,6 +22,7 @@ public class LookHelp extends JFrame{
 		JLabel label3 = new JLabel("3、“格式”里的“自动换行”需要点中才可进行自动换行，否则会一直往后写。");
 		JLabel label4 = new JLabel("4、菜单栏下面的格式是用来调节文本的字体。");
 		JLabel label5 = new JLabel("5、本记事本的缺点是无法改变字体的样式，大小和形态。");
-		c.add(label1);c.add(label2);c.add(label3);c.add(label4);c.add(label5);
+		JLabel label6 = new JLabel("6.help about menrber name");
+		c.add(label1);c.add(label2);c.add(label3);c.add(label4);c.add(label5);c.add(label6);
 	}
 }
