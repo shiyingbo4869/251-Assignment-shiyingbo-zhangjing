@@ -1,7 +1,7 @@
 package Jtatext;
 
-import java.awt.event.ActionEvent;//事件处理
-import java.awt.event.ActionListener;//事件监听
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,12 +10,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
  
-import javax.swing.JButton;//按钮
-import javax.swing.JFrame;//框架
-import javax.swing.JLabel;//标签
-import javax.swing.JOptionPane;//消息窗口
-import javax.swing.JPanel;//面板
-import javax.swing.JTextField;//文本框
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class Replace extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -46,18 +46,18 @@ public class Replace extends JFrame {
 		userInit();
 	}
 	public void userInit() {
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 设置关闭框架的同时结束程序
-		this.setSize(500, 300);// 设置框架大小为长500,宽200
-		this.setResizable(false);// 设置框架不可以改变大小
-		this.setTitle("Search Replace");// 设置框架标题
-		this.pnl_mian.setLayout(null);// 设置面板布局管理
-		this.lbl_help.setText("Search Replace");// 设置标签标题
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// Set to close the frame while closing the program
+		this.setSize(500, 300);// Set frame size to 500 by 200
+		this.setResizable(false);// Frame Settings cannot be resized
+		this.setTitle("Search Replace");//Set frame title
+		this.pnl_mian.setLayout(null);// Setup panel layout management
+		this.lbl_help.setText("Search Replace");// Set label title
 		this.lbl_path.setText("filepath:");
 		this.lbl_find.setText("search:");
 		this.lbl_replace.setText("replace:");
 		this.btn_sub.setText("confirm");
 		this.btn_reset.setText("reset");
-		this.lbl_help.setBounds(200, 25, 100, 21);// 设置标签x坐标120,y坐标20,长60,宽20
+		this.lbl_help.setBounds(200, 25, 100, 21);// Set the label x coordinate 120,y coordinate 20, length 60, width 20
 		this.lbl_path.setBounds(100, 50, 60, 20);
 		this.lbl_find.setBounds(100, 80, 60, 20);
 		this.lbl_replace.setBounds(100, 110, 60, 25);
@@ -65,20 +65,20 @@ public class Replace extends JFrame {
 		this.txt_find.setBounds(150, 80, 200, 20);
 		this.txt_replace.setBounds(150, 110, 200, 20);
 		this.btn_sub.setBounds(130, 180, 80, 20);
-		this.btn_sub.addActionListener(new ActionListener()// 匿名类实现ActionListener接口
+		this.btn_sub.addActionListener(new ActionListener()// The anonymous class implements the ActionListener interface
 				{
 					public void actionPerformed(ActionEvent e) {
 						btnsub_ActionEvent(e);
 					}
 				});
 		this.btn_reset.setBounds(245, 180, 80, 20);
-		this.btn_reset.addActionListener(new ActionListener()// 匿名类实现ActionListener接口
+		this.btn_reset.addActionListener(new ActionListener()//The anonymous class implements the ActionListener interface
 				{
 					public void actionPerformed(ActionEvent e) {
 						btnreset_ActionEvent(e);
 					}
 				});
-		this.pnl_mian.add(lbl_help);// 加载标签到面板
+		this.pnl_mian.add(lbl_help);// Load the label into the panel
 		this.pnl_mian.add(lbl_path);
 		this.pnl_mian.add(lbl_find);
 		this.pnl_mian.add(lbl_replace);
@@ -87,8 +87,8 @@ public class Replace extends JFrame {
 		this.pnl_mian.add(txt_replace);
 		this.pnl_mian.add(btn_sub);
 		this.pnl_mian.add(btn_reset);
-		this.add(pnl_mian);// 加载面板到框架
-		this.setVisible(true);// 设置框架可显
+		this.add(pnl_mian);// Load panel into frame
+		this.setVisible(true);//Set frame visible
 	}
  
 	public void btnsub_ActionEvent(ActionEvent e) {
@@ -137,12 +137,12 @@ public class Replace extends JFrame {
 			StringBuffer sbf = new StringBuffer("");
 			try {
 				for (String tmp = null; (tmp = br.readLine()) != null; tmp = null) {
-					// 在这里做替换操作
+					// Let's do a substitution here
 					if (tmp.contains(find)) {
 						tmp = tmp.replaceAll(find, replace);
 						sbf.append(tmp);
 						sbf.append(System.getProperty("line.separator"));
-						// 文件的重新写入
+						// A rewrite of a file
 						BufferedWriter bw = new BufferedWriter(new FileWriter(
 								path));
 						bw.write(sbf.toString());
