@@ -12,16 +12,16 @@ import org.junit.Test;
 
 /**
  * 测试
- * @author follow
+ * @author Shi Yingbo  Zhang Jing
  *
  */
 public class GuiTest {
 	
-	//文件打开读取测试
+	//Open the file read test
 	@Test
 	public void open(){
 		File file = new File("src/Jtatext/Print.java"); 
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
         	
@@ -36,11 +36,11 @@ public class GuiTest {
 		
 	}
 	
-	//文件搜索替换
+	//File search and replace
 	@Test
 	public void searchReplace(){
 		File file = new File("src/Jtatext/test.txt"); 
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		StringBuilder sb = new StringBuilder("");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
@@ -59,13 +59,13 @@ public class GuiTest {
 		
 	}
 	
-	//文件字符串替换保存
+	//File string replacement save
 	@Test
 	public void replaceSave(){
 		File file = new File("src/Jtatext/test.txt"); 
 		
 		BufferedWriter bw = null;
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		StringBuilder sb = new StringBuilder("");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
