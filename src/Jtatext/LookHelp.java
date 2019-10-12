@@ -17,11 +17,11 @@ public class LookHelp extends JFrame{
 		Container c = this.getContentPane();
 		c.setLayout(new GridLayout(5,0));
 		
-		JLabel label1 = new JLabel("1、菜单栏的菜单项可点击来选择功能。");
-		JLabel label2 = new JLabel("2、“编辑”里的剪切、复制、粘贴可用快捷键Ctrl + x、Ctrl + c、Ctrl + v实现。");
-		JLabel label3 = new JLabel("3、“格式”里的“自动换行”需要点中才可进行自动换行，否则会一直往后写。");
-		JLabel label4 = new JLabel("4、菜单栏下面的格式是用来调节文本的字体。");
-		JLabel label5 = new JLabel("5、本记事本的缺点是无法改变字体的样式，大小和形态。");
+		JLabel label1 = new JLabel("1、Menu bar menu items can be clicked to select functions.");
+		JLabel label2 = new JLabel("2、\"Edit\" in the cut, copy, paste available shortcut key Ctrl + x, Ctrl + c, Ctrl + v。");
+		JLabel label3 = new JLabel("3、Auto line wrap in format needs to be in the dot, otherwise it will keep going。");
+		JLabel label4 = new JLabel("4、The format below the menu bar is used to adjust the text font.");
+		JLabel label5 = new JLabel("5、The disadvantage of notepad is that it is impossible to change the style, size and shape of the font.");
 		JLabel label6 = new JLabel("6.help about menrber name");
 		c.add(label1);c.add(label2);c.add(label3);c.add(label4);c.add(label5);c.add(label6);
 	}

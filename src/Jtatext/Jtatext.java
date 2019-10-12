@@ -67,6 +67,7 @@ public class Jtatext extends JFrame{
 	    		 workArea.setText("");//清空文本 
 	    	}
 	    });
+	    
 	    JMenuItem item1_2 = new JMenuItem("Open");
 	    item1_2.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -151,6 +152,7 @@ public class Jtatext extends JFrame{
 	    		}
 	    	}
 	    });
+	    
 	    JMenuItem item1_5 = new JMenuItem("Quit");
 	    item1_5.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
