@@ -1,7 +1,7 @@
 package Jtatext;
 /**
- * @author Shi yingbo  zhangjing
- * @version 1.3.4
+ * @author Shi yingbo
+ * @version 1.1.1
  * @date 2019-10-08
  */
 import java.awt.Graphics;
@@ -14,6 +14,7 @@ import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.io.BufferedReader;
@@ -31,18 +32,18 @@ public class Jtatext extends JFrame{
 		
 		super("Test Editor   " + new Date());
 		
-		//Create a menu (JMenuBar) object
+		//创建菜单栏(JMenuBar)对象
 		JMenuBar mBar = new JMenuBar();
-		//Set menu bar objects in containers such as JFrame, that is, add the menu bar to the frame container
+		//在JFrame等容器中设置菜单栏对象，即将菜单栏添加到框架容器中
 		this.setJMenuBar(mBar);
 		
-		//Create menu object
+		//创建菜单对象
 		JMenu file = new JMenu("File");
 		JMenu search = new JMenu("Search");
 		JMenu view = new JMenu("View");
 		JMenu help = new JMenu("Help");
 		
-		//Adds a menu to the menu bar
+		//将菜单添加到菜单栏中
 		mBar.add(file);
 		mBar.add(search);
 		mBar.add(view);
@@ -53,7 +54,7 @@ public class Jtatext extends JFrame{
 	    //add(workArea);
 	    add(imgScrollPane,BorderLayout.CENTER);  
 	    
-	    //Definition open and save dialog box 
+	    //定义打开和保存对话框  
 	    FileDialog openDia;
 		FileDialog saveDia;  
 		//默认模式为 FileDialog.LOAD  
@@ -64,10 +65,10 @@ public class Jtatext extends JFrame{
 	    JMenuItem item1_1 = new JMenuItem("New");
 	    item1_1.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
-	    		 workArea.setText("");//清空文本 
+	    		//清空文本 
+	    		 workArea.setText("");
 	    	}
 	    });
-	    
 	    JMenuItem item1_2 = new JMenuItem("Open");
 	    item1_2.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -86,6 +87,18 @@ public class Jtatext extends JFrame{
                 
                 try{
                 	BufferedReader bufr = new BufferedReader(new FileReader(fileO));
+                	//设置文本字体颜色
+                	if(filename.endsWith(".java")){
+                		workArea.setForeground(Color.BLUE);
+                	}
+                	
+                	if(filename.endsWith(".py")){
+                		workArea.setForeground(Color.GREEN);
+                	}
+                	
+                	if(filename.endsWith(".cpp")){
+                		workArea.setForeground(Color.RED);
+                	}
                 	
                 	String line = null;
                 	
@@ -100,7 +113,6 @@ public class Jtatext extends JFrame{
                 
 	    	}
 	    });
-	    
 	    JMenuItem item1_3 = new JMenuItem("Save");
 	    item1_3.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -126,7 +138,6 @@ public class Jtatext extends JFrame{
 	    		}
 	    	}
 	    });
-	    
 	    JMenuItem item1_4 = new JMenuItem("Save AS");
 	    item1_4.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -152,7 +163,6 @@ public class Jtatext extends JFrame{
 	    		}
 	    	}
 	    });
-	    
 	    JMenuItem item1_5 = new JMenuItem("Quit");
 	    item1_5.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -161,9 +171,41 @@ public class Jtatext extends JFrame{
 	    });
 	    
 	    JMenuItem item2_1 = new JMenuItem("Select text");
+	    
 	    JMenuItem item2_2 = new JMenuItem("Cut");
 	    JMenuItem item2_3 = new JMenuItem("Copy");  		
+
 	    JMenuItem item2_4 = new JMenuItem("Paste");
+	    
+	    //添加键盘快捷键(全选)
+	    item2_1.setAccelerator(KeyStroke.getKeyStroke('A', InputEvent.CTRL_MASK));
+	    item2_1.addActionListener(new ActionListener(){
+	    	public void actionPerformed(ActionEvent e){
+	    		workArea.selectAll();
+	    		workArea.copy();
+	    	}
+	    });
+	    //复制
+	    item2_3.setAccelerator(KeyStroke.getKeyStroke('C', InputEvent.CTRL_MASK));
+	    item2_3.addActionListener(new ActionListener(){
+	    	public void actionPerformed(ActionEvent e){
+	    		workArea.copy();
+	    	}
+	    });
+	    //粘贴
+	    item2_4.setAccelerator(KeyStroke.getKeyStroke('V', InputEvent.CTRL_MASK));
+	    item2_4.addActionListener(new ActionListener(){
+	    	public void actionPerformed(ActionEvent e){
+	    		workArea.paste();
+	    	}
+	    });
+	    //截切
+	    item2_2.setAccelerator(KeyStroke.getKeyStroke('X', InputEvent.CTRL_MASK));
+	    item2_2.addActionListener(new ActionListener(){
+	    	public void actionPerformed(ActionEvent e){
+	    		workArea.cut();
+	    	}
+	    });
 	    
 	    JMenuItem item3_1 = new JMenuItem("search replace");
 	    item3_1.addActionListener(new ActionListener(){
@@ -198,7 +240,11 @@ public class Jtatext extends JFrame{
 	    JMenuItem item4_3 = new JMenuItem("Print");
 	    item4_3.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent event){
-	    		new Print();
+	    		String text = workArea.getText();
+	    		System.out.println(text);
+	    		System.out.println(text.contains("\n"));
+	    		System.out.println(text.contains("\r\n"));
+	    		new Print(text);
 	    	}
 	    });
 	    
@@ -209,16 +255,19 @@ public class Jtatext extends JFrame{
 	    help.add(item4_1);help.add(item4_2);help.add(item4_3);
 	    	    
 	}//构造方法结束 
-
-	public static void main(String args[])
-	{
+	
+	
+	public static void init(){
 		Jtatext app = new Jtatext();	
 		app.setSize(600, 400);
 		app.setLocation(200,200);
 		app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		app.setVisible(true);
-		
+	}
+
+	public static void main(String args[]){
+		init();
 	}
 	
  
-}
+}	

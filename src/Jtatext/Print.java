@@ -15,14 +15,12 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-public class Print extends JFrame implements Printable, 	ActionListener {
-	private Object[][] data = {{"100", "0.8", "0.1", "90"}};	
-	//JTableb表头
-	private Object[] head = {"单价", "折扣", "税", "调整后价"}; 	//定义一个存放数据的JTable	
-	private JTable table = new JTable(data, head);	//打印出一条记录的按钮	
-	private JButton printBtn = new JButton("打印");   	
+public class Print extends JFrame implements Printable, ActionListener {
+	private String text;
+	private JButton printBtn = new JButton("Print");   	
 	private JScrollPane scrollPane = new JScrollPane();	//设置窗口的信息，添加各种面板按钮，及初始化按钮的监听器。	
-	public Print() {	
+	public Print(String text) {	
+		this.text = text;
 		setSize(800, 600);	//设置窗体大小位置	
 		add(printBtn, BorderLayout.NORTH);	
 		add(scrollPane, BorderLayout.CENTER);	
@@ -40,7 +38,10 @@ public class Print extends JFrame implements Printable, 	ActionListener {
 		} catch (PrinterException e1) {
 			e1.printStackTrace();  	
 		}  	
-		JOptionPane.showMessageDialog(this, 	"导出打印pdf文件成功");
+		int ok = JOptionPane.showConfirmDialog(this,		"导出打印pdf文件成功,是否继续打印", "", JOptionPane.YES_OPTION);
+		if(ok == JOptionPane.NO_OPTION){
+			this.dispose();
+		}
 	}	
 	@Override	
 	public int print(Graphics graphics, PageFormat pageFormat, 	int pageIndex) throws PrinterException {
@@ -48,18 +49,20 @@ public class Print extends JFrame implements Printable, 	ActionListener {
 		int x = (int)pageFormat.getImageableX(); 
 		int y = (int)pageFormat.getImageableY();
 		switch(pageIndex){
-		case 0:  	g.setColor(Color.RED);
-		g.drawString("单价：" + table.getValueAt(0, 0), x + 100, y + 10);
-		g.drawString("折扣：" + table.getValueAt(0, 1), x + 100, y + 30);
-		g.drawString("税率：" + table.getValueAt(0, 2), x + 100, y + 50);	
-		g.drawString("单价：" + table.getValueAt(0, 3), x + 100, y + 70);	
-		return PAGE_EXISTS;  
-		default:  	return NO_SUCH_PAGE;  	
+			case 0:  	
+				g.setColor(Color.RED);
+				String[] arr = text.split("\n");
+				int[] index = new int[]{10};
+				for(String line : arr){
+					g.drawString(line, x + 10, y + index[0]);
+					index[0] += 10;
+				}
+				return PAGE_EXISTS;  
+			default: return NO_SUCH_PAGE;  	
 		}  	
 	}
 	public static void main(String[] args) {
-		new Print();	
-		}
+		new Print("123");	
+	}
 }
-
 
