@@ -70,22 +70,6 @@ public class Jtatext extends JFrame{
 	    JMenuItem item1_2 = new JMenuItem("Open");
 	    item1_2.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
-	    		FileReader fr=null;
-	            BufferedReader br=null;
-	            try {
-	                //创建一个FileReader对象
-	                fr=new FileReader("OpenDocument Text.odt"); 
-	                //创建一个BufferedReader 对象
-	                br=new BufferedReader(fr); 
-	                //读取一行数据 
-	                String line=null;
-	                while((line=br.readLine())!=null){ 
-	                    System.out.println(line);
-	                }
-	            }catch(IOException er){
-	                    System.out.println("File read failed!");
-	            }
-	        
 	    		openDia.setVisible(true);
 	    		String dirPath = openDia.getDirectory();//获取文件路径  
                 String filename = openDia.getFile();//获取文件名称  
@@ -115,6 +99,7 @@ public class Jtatext extends JFrame{
                 
 	    	}
 	    });
+	    
 	    JMenuItem item1_3 = new JMenuItem("Save");
 	    item1_3.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){
@@ -140,6 +125,7 @@ public class Jtatext extends JFrame{
 	    		}
 	    	}
 	    });
+	    
 	    JMenuItem item1_4 = new JMenuItem("Save AS");
 	    item1_4.addActionListener(new ActionListener(){
 	    	public void actionPerformed(ActionEvent e){

@@ -1,0 +1,39 @@
+Found a 25 line (121 tokens) duplication in the following files: 
+Starting at line 119 of C:\Users\LENOVO\eclipse-workspace\159251assignment1\src\Jtatext\Jtatext.java
+Starting at line 144 of C:\Users\LENOVO\eclipse-workspace\159251assignment1\src\Jtatext\Jtatext.java
+
+	    item1_3.addActionListener(new ActionListener(){
+	    	public void actionPerformed(ActionEvent e){
+	    		File fileS = null;
+	    		if(fileS == null){
+	    			saveDia.setVisible(true);  
+                    String dirPath = saveDia.getDirectory();  
+                    String fileName = saveDia.getFile();  
+                    
+                    if(dirPath == null || fileName == null)
+                    	return;
+                    
+                    fileS = new File(dirPath,fileName);  
+	    		}
+	    		
+	    		try{
+	    			BufferedWriter bufw = new BufferedWriter(new FileWriter(fileS));
+	    			String text = workArea.getText();
+	    			bufw.write(text);
+	    			bufw.close();
+	    		}catch(IOException er){
+	    			throw new RuntimeException("File save failed!"); 
+	    		}
+	    	}
+	    });
+	    JMenuItem item1_4 = new JMenuItem("Save AS");
+=====================================================================
+Found a 5 line (27 tokens) duplication in the following files: 
+Starting at line 8 of C:\Users\LENOVO\eclipse-workspace\159251assignment1\src\Jtatext\AboutBook.java
+Starting at line 11 of C:\Users\LENOVO\eclipse-workspace\159251assignment1\src\Jtatext\LookHelp.java
+
+		this.setSize(220, 100);
+		this.setLocation(200,300);
+		this.setResizable(false);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		this.setVisible(true);
