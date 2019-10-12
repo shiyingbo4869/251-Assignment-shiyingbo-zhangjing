@@ -31,18 +31,18 @@ public class Jtatext extends JFrame{
 		
 		super("Test Editor   " + new Date());
 		
-		//创建菜单(JMenuBar)对象
+		//Create a menu (JMenuBar) object
 		JMenuBar mBar = new JMenuBar();
-		//在JFrame等容器中设置菜单栏对象，即将菜单栏添加到框架容器中
+		//Set menu bar objects in containers such as JFrame, that is, add the menu bar to the frame container
 		this.setJMenuBar(mBar);
 		
-		//创建菜单对象
+		//Create menu object
 		JMenu file = new JMenu("File");
 		JMenu search = new JMenu("Search");
 		JMenu view = new JMenu("View");
 		JMenu help = new JMenu("Help");
 		
-		//将菜单添加到菜单栏中
+		//Adds a menu to the menu bar
 		mBar.add(file);
 		mBar.add(search);
 		mBar.add(view);
@@ -53,7 +53,7 @@ public class Jtatext extends JFrame{
 	    //add(workArea);
 	    add(imgScrollPane,BorderLayout.CENTER);  
 	    
-	    //定义打开和保存对话框  
+	    //Definition open and save dialog box 
 	    FileDialog openDia;
 		FileDialog saveDia;  
 		//默认模式为 FileDialog.LOAD  
