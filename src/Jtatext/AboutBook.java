@@ -1,7 +1,9 @@
 package Jtatext;
  
-import javax.swing.*;
- 
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
 public class AboutBook extends JFrame{
 	public AboutBook(){
 		super("About");
