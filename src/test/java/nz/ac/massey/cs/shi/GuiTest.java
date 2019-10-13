@@ -17,11 +17,11 @@ import org.junit.Test;
  */
 public class GuiTest {
 	
-	//文件打开读取测试
+	//file open read test
 	@Test
 	public void open(){
 		File file = new File("src/main/java/nz/ac/massey/cs/shi/Print.java"); 
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
         	
@@ -39,11 +39,11 @@ public class GuiTest {
 		
 	}
 	
-	//文件搜索替换
+	//file search test
 	@Test
 	public void searchReplace(){
 		File file = new File("src/main/test.txt"); 
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		StringBuilder sb = new StringBuilder("");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
@@ -62,13 +62,13 @@ public class GuiTest {
 		
 	}
 	
-	//文件字符串替换保存
+	//file string replacement save
 	@Test
 	public void replaceSave(){
 		File file = new File("src/main/test.txt"); 
 		
 		BufferedWriter bw = null;
-		//try resource,执行完自动释放程序
+		//try resource,Automatic release program is executed
 		StringBuilder sb = new StringBuilder("");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
 			String line = null;
