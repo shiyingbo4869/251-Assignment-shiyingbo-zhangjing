@@ -1,0 +1,992 @@
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:7:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:7:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:7:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:7:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:16:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:16:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:17:	LocalVariableCouldBeFinal: Local variable 'label' could be declared final
+src/main/java/nz/ac/massey/cs/shi/AboutBook.java:17:	LocalVariableCouldBeFinal: Local variable 'label' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:1:	ExcessiveImports: A high number of imports can indicate a high degree of coupling within an object.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:1:	ExcessiveImports: A high number of imports can indicate a high degree of coupling within an object.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:8:	DuplicateImports: Avoid duplicate imports such as 'java.awt.Graphics'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:8:	DuplicateImports: Avoid duplicate imports such as 'java.awt.Graphics'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:8:	UnusedImports: Avoid unused imports such as 'java.awt.Graphics'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:8:	UnusedImports: Avoid unused imports such as 'java.awt.Graphics'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:9:	UnusedImports: Avoid unused imports such as 'java.text.SimpleDateFormat'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:9:	UnusedImports: Avoid unused imports such as 'java.text.SimpleDateFormat'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:12:	UnusedImports: Avoid unused imports such as 'java.util.Timer'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:12:	UnusedImports: Avoid unused imports such as 'java.util.Timer'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:13:	UnusedImports: Avoid unused imports such as 'java.util.TimerTask'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:13:	UnusedImports: Avoid unused imports such as 'java.util.TimerTask'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:14:	DuplicateImports: Avoid duplicate imports such as 'javax.swing.JFrame'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:14:	DuplicateImports: Avoid duplicate imports such as 'javax.swing.JFrame'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:15:	DuplicateImports: Avoid duplicate imports such as 'javax.swing.JPanel'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:15:	DuplicateImports: Avoid duplicate imports such as 'javax.swing.JPanel'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:15:	UnusedImports: Avoid unused imports such as 'javax.swing.JPanel'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:15:	UnusedImports: Avoid unused imports such as 'javax.swing.JPanel'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:24:	UnusedImports: Avoid unused imports such as 'java.awt.event.ItemEvent'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:24:	UnusedImports: Avoid unused imports such as 'java.awt.event.ItemEvent'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:25:	UnusedImports: Avoid unused imports such as 'java.awt.event.ItemListener'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:25:	UnusedImports: Avoid unused imports such as 'java.awt.event.ItemListener'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:37:	DuplicateImports: Avoid duplicate imports such as 'java.io.BufferedReader'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:37:	DuplicateImports: Avoid duplicate imports such as 'java.io.BufferedReader'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:38:	DuplicateImports: Avoid duplicate imports such as 'java.io.FileInputStream'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:38:	DuplicateImports: Avoid duplicate imports such as 'java.io.FileInputStream'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:39:	DuplicateImports: Avoid duplicate imports such as 'java.io.IOException'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:39:	DuplicateImports: Avoid duplicate imports such as 'java.io.IOException'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:40:	DuplicateImports: Avoid duplicate imports such as 'java.io.InputStreamReader'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:40:	DuplicateImports: Avoid duplicate imports such as 'java.io.InputStreamReader'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:42:	UnusedImports: Avoid unused imports such as 'java.io.UnsupportedEncodingException'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:42:	UnusedImports: Avoid unused imports such as 'java.io.UnsupportedEncodingException'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:43:	DuplicateImports: Avoid duplicate imports such as 'java.util.List'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:43:	DuplicateImports: Avoid duplicate imports such as 'java.util.List'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:46:	DuplicateImports: Avoid duplicate imports such as 'net.sf.json.JSONArray'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:46:	DuplicateImports: Avoid duplicate imports such as 'net.sf.json.JSONArray'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:47:	DuplicateImports: Avoid duplicate imports such as 'net.sf.json.JSONObject'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:47:	DuplicateImports: Avoid duplicate imports such as 'net.sf.json.JSONObject'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	ModifiedCyclomaticComplexity: The class 'Jtatext' has a Modified Cyclomatic Complexity of 16 (Highest = 29).
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	ModifiedCyclomaticComplexity: The class 'Jtatext' has a Modified Cyclomatic Complexity of 16 (Highest = 29).
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	StdCyclomaticComplexity: The class 'Jtatext' has a Standard Cyclomatic Complexity of 16 (Highest = 29).
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:49:	StdCyclomaticComplexity: The class 'Jtatext' has a Standard Cyclomatic Complexity of 16 (Highest = 29).
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:50:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:50:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:51:	LocalVariableCouldBeFinal: Local variable 'app' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:51:	LocalVariableCouldBeFinal: Local variable 'app' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	ExcessiveMethodLength: Avoid really long methods.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	ExcessiveMethodLength: Avoid really long methods.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	ModifiedCyclomaticComplexity: The constructor 'Jtatext' has a Modified Cyclomatic Complexity of 29.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	ModifiedCyclomaticComplexity: The constructor 'Jtatext' has a Modified Cyclomatic Complexity of 29.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	NPathComplexity: The constructor 'Jtatext()' has an NPath complexity of 9792
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	NPathComplexity: The constructor 'Jtatext()' has an NPath complexity of 9792
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	NcssCount: The constructor 'Jtatext()' has a NCSS line count of 65.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	NcssCount: The constructor 'Jtatext()' has a NCSS line count of 65.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	StdCyclomaticComplexity: The constructor 'Jtatext' has a Standard Cyclomatic Complexity of 29.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:58:	StdCyclomaticComplexity: The constructor 'Jtatext' has a Standard Cyclomatic Complexity of 29.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:64:	LocalVariableCouldBeFinal: Local variable 'mBar' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:64:	LocalVariableCouldBeFinal: Local variable 'mBar' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:65:	CommentSize: Comment is too large: Line too long
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:65:	CommentSize: Comment is too large: Line too long
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:69:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:69:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:70:	LocalVariableCouldBeFinal: Local variable 'search' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:70:	LocalVariableCouldBeFinal: Local variable 'search' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:71:	LocalVariableCouldBeFinal: Local variable 'view' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:71:	LocalVariableCouldBeFinal: Local variable 'view' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:72:	LocalVariableCouldBeFinal: Local variable 'help' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:72:	LocalVariableCouldBeFinal: Local variable 'help' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:81:	LocalVariableCouldBeFinal: Local variable 'imgScrollPane' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:81:	LocalVariableCouldBeFinal: Local variable 'imgScrollPane' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:86:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:86:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:87:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:87:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:90:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'saveDia' (lines '90'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	LocalVariableCouldBeFinal: Local variable 'item1_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	LocalVariableCouldBeFinal: Local variable 'item1_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	LocalVariableNamingConventions: The local variable name 'item1_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	LocalVariableNamingConventions: The local variable name 'item1_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:93:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:95:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	LocalVariableCouldBeFinal: Local variable 'item1_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	LocalVariableCouldBeFinal: Local variable 'item1_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	LocalVariableNamingConventions: The local variable name 'item1_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	LocalVariableNamingConventions: The local variable name 'item1_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:100:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:102:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:104:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:104:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:105:	LocalVariableCouldBeFinal: Local variable 'filename' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:105:	LocalVariableCouldBeFinal: Local variable 'filename' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:114:	LocalVariableCouldBeFinal: Local variable 'fileO' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:114:	LocalVariableCouldBeFinal: Local variable 'fileO' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	LocalVariableCouldBeFinal: Local variable 'bufr' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:117:	LocalVariableCouldBeFinal: Local variable 'bufr' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:131:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '131'-'133').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:133:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '133'-'296').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:134:	AvoidDuplicateLiterals: The String literal "\r\n" appears 4 times in this file; the first occurrence is on line 134
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:134:	AvoidDuplicateLiterals: The String literal "\r\n" appears 4 times in this file; the first occurrence is on line 134
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:139:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:139:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:139:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:139:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	LocalVariableCouldBeFinal: Local variable 'item1_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	LocalVariableCouldBeFinal: Local variable 'item1_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	LocalVariableNamingConventions: The local variable name 'item1_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	LocalVariableNamingConventions: The local variable name 'item1_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:144:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:146:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:150:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:150:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:151:	LocalVariableCouldBeFinal: Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:151:	LocalVariableCouldBeFinal: Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:153:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:153:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:154:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:154:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	LocalVariableCouldBeFinal: Local variable 'bufw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:160:	LocalVariableCouldBeFinal: Local variable 'bufw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:161:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:161:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:165:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:165:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:165:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:165:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:167:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:167:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:168:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:168:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:169:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:169:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:169:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:169:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:170:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:170:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:170:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:170:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	LocalVariableCouldBeFinal: Local variable 'item1_4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	LocalVariableCouldBeFinal: Local variable 'item1_4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	LocalVariableNamingConventions: The local variable name 'item1_4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	LocalVariableNamingConventions: The local variable name 'item1_4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_4' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:174:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_4' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:176:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:180:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:180:	LocalVariableCouldBeFinal: Local variable 'dirPath' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:181:	LocalVariableCouldBeFinal: Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:181:	LocalVariableCouldBeFinal: Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:183:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:183:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:184:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:184:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	LocalVariableCouldBeFinal: Local variable 'bufw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:190:	LocalVariableCouldBeFinal: Local variable 'bufw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:191:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:191:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:195:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:195:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:195:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:195:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:197:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:197:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:198:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:198:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:199:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:199:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:199:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:199:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:200:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:200:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:200:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:200:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	LocalVariableCouldBeFinal: Local variable 'item1_5' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	LocalVariableCouldBeFinal: Local variable 'item1_5' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	LocalVariableNamingConventions: The local variable name 'item1_5' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	LocalVariableNamingConventions: The local variable name 'item1_5' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_5' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:204:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item1_5' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:206:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:207:	DoNotCallSystemExit: System.exit() should not be used in J2EE/JEE apps
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:207:	DoNotCallSystemExit: System.exit() should not be used in J2EE/JEE apps
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	LocalVariableCouldBeFinal: Local variable 'item2_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	LocalVariableCouldBeFinal: Local variable 'item2_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	LocalVariableNamingConventions: The local variable name 'item2_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	LocalVariableNamingConventions: The local variable name 'item2_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:211:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	LocalVariableCouldBeFinal: Local variable 'item2_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	LocalVariableCouldBeFinal: Local variable 'item2_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	LocalVariableNamingConventions: The local variable name 'item2_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	LocalVariableNamingConventions: The local variable name 'item2_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:213:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	LocalVariableCouldBeFinal: Local variable 'item2_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	LocalVariableCouldBeFinal: Local variable 'item2_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	LocalVariableNamingConventions: The local variable name 'item2_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	LocalVariableNamingConventions: The local variable name 'item2_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:214:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	LocalVariableCouldBeFinal: Local variable 'item2_4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	LocalVariableCouldBeFinal: Local variable 'item2_4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	LocalVariableNamingConventions: The local variable name 'item2_4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	LocalVariableNamingConventions: The local variable name 'item2_4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_4' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:216:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item2_4' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:221:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:229:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:236:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:243:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	LocalVariableCouldBeFinal: Local variable 'item3_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	LocalVariableCouldBeFinal: Local variable 'item3_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	LocalVariableNamingConventions: The local variable name 'item3_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	LocalVariableNamingConventions: The local variable name 'item3_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item3_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:248:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item3_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:250:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:255:	LocalVariableNamingConventions: The final local variable name 'item3_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:255:	LocalVariableNamingConventions: The final local variable name 'item3_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:257:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:258:	LocalVariableCouldBeFinal: Local variable 'source' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:258:	LocalVariableCouldBeFinal: Local variable 'source' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:260:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:260:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:261:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:261:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:261:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:261:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:262:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:262:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:262:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:262:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:263:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:263:	ControlStatementBraces: This statement should have braces
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	LocalVariableCouldBeFinal: Local variable 'item4_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	LocalVariableCouldBeFinal: Local variable 'item4_1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	LocalVariableNamingConventions: The local variable name 'item4_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	LocalVariableNamingConventions: The local variable name 'item4_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:267:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_1' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:269:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	LocalVariableCouldBeFinal: Local variable 'item4_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	LocalVariableCouldBeFinal: Local variable 'item4_2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	LocalVariableNamingConventions: The local variable name 'item4_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	LocalVariableNamingConventions: The local variable name 'item4_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:273:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_2' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:275:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	LocalVariableCouldBeFinal: Local variable 'item4_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	LocalVariableCouldBeFinal: Local variable 'item4_3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	LocalVariableNamingConventions: The local variable name 'item4_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	LocalVariableNamingConventions: The local variable name 'item4_3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:279:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'item4_3' is not final.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	MethodArgumentCouldBeFinal: Parameter 'event' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:281:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:282:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:282:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:283:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:283:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:284:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:284:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:284:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:284:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:285:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:285:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:285:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:285:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	ShortClassName: Avoid short class names like Util
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:297:	ShortClassName: Avoid short class names like Util
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	FormalParameterNamingConventions: The method parameter name 'Path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	FormalParameterNamingConventions: The method parameter name 'Path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	MethodArgumentCouldBeFinal: Parameter 'Path' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	MethodArgumentCouldBeFinal: Parameter 'Path' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	MethodNamingConventions: The instance method name 'ReadFile' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	MethodNamingConventions: The instance method name 'ReadFile' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	VariableNamingConventions: Variables should start with a lowercase character, 'Path' starts with uppercase character.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:298:	VariableNamingConventions: Variables should start with a lowercase character, 'Path' starts with uppercase character.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:299:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'reader' (lines '299'-'304').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:299:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'reader' (lines '299'-'304').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	LocalVariableCouldBeFinal: Local variable 'fileInputStream' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:302:	LocalVariableCouldBeFinal: Local variable 'fileInputStream' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:303:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:303:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:303:	LocalVariableCouldBeFinal: Local variable 'inputStreamReader' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:303:	LocalVariableCouldBeFinal: Local variable 'inputStreamReader' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:305:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tempString' (lines '305'-'306').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:305:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tempString' (lines '305'-'306').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:306:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:306:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:306:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tempString' (lines '306'-'322').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:306:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tempString' (lines '306'-'322').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:307:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:307:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:311:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:311:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:317:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:317:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:326:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:326:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:326:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:326:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'temp' (lines '328'-'348').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'temp' (lines '328'-'348').
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:328:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	LocalVariableCouldBeFinal: Local variable 'JsonContext' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	LocalVariableCouldBeFinal: Local variable 'JsonContext' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	LocalVariableNamingConventions: The local variable name 'JsonContext' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	LocalVariableNamingConventions: The local variable name 'JsonContext' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	VariableNamingConventions: Variables should start with a lowercase character, 'JsonContext' starts with uppercase character.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:329:	VariableNamingConventions: Variables should start with a lowercase character, 'JsonContext' starts with uppercase character.
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:330:	LocalVariableCouldBeFinal: Local variable 'jsonArray' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:330:	LocalVariableCouldBeFinal: Local variable 'jsonArray' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:334:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:334:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:334:	LocalVariableCouldBeFinal: Local variable 'size' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:334:	LocalVariableCouldBeFinal: Local variable 'size' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:335:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:335:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:337:	LocalVariableCouldBeFinal: Local variable 'jsonObject' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:337:	LocalVariableCouldBeFinal: Local variable 'jsonObject' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:338:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:338:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:338:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:338:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:339:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:339:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:339:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:339:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:340:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:340:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:340:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:340:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:343:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:343:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:343:	LocalVariableCouldBeFinal: Local variable 'listObject' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:343:	LocalVariableCouldBeFinal: Local variable 'listObject' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:344:	ForLoopVariableCount: Too many control variables in the for statement
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:344:	ForLoopVariableCount: Too many control variables in the for statement
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:344:	LocalVariableCouldBeFinal: Local variable 'j' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:344:	LocalVariableCouldBeFinal: Local variable 'j' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:345:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:345:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:347:	LocalVariableCouldBeFinal: Local variable 'temp' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:347:	LocalVariableCouldBeFinal: Local variable 'temp' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	SystemPrintln: System.out.println is used
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'net.sf.ezmorph.bean.MorphDynaBean' due to existing import 'net.sf.ezmorph.bean.MorphDynaBean'
+src/main/java/nz/ac/massey/cs/shi/Jtatext.java:348:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'net.sf.ezmorph.bean.MorphDynaBean' due to existing import 'net.sf.ezmorph.bean.MorphDynaBean'
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:7:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:7:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:7:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:7:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:17:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:17:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:17:	ShortVariable: Avoid variables with short names like c
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:17:	ShortVariable: Avoid variables with short names like c
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:20:	LocalVariableCouldBeFinal: Local variable 'label1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:20:	LocalVariableCouldBeFinal: Local variable 'label1' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:21:	LocalVariableCouldBeFinal: Local variable 'label2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:21:	LocalVariableCouldBeFinal: Local variable 'label2' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:22:	LocalVariableCouldBeFinal: Local variable 'label3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:22:	LocalVariableCouldBeFinal: Local variable 'label3' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:23:	LocalVariableCouldBeFinal: Local variable 'label4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:23:	LocalVariableCouldBeFinal: Local variable 'label4' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:24:	LocalVariableCouldBeFinal: Local variable 'label5' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:24:	LocalVariableCouldBeFinal: Local variable 'label5' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:25:	LocalVariableCouldBeFinal: Local variable 'label6' could be declared final
+src/main/java/nz/ac/massey/cs/shi/LookHelp.java:25:	LocalVariableCouldBeFinal: Local variable 'label6' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:17:	UnusedImports: Avoid unused imports such as 'javax.swing.JTable'
+src/main/java/nz/ac/massey/cs/shi/Print.java:17:	UnusedImports: Avoid unused imports such as 'javax.swing.JTable'
+src/main/java/nz/ac/massey/cs/shi/Print.java:19:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:19:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:19:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/Print.java:19:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	ImmutableField: Private field 'text' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:20:	ImmutableField: Private field 'text' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	ImmutableField: Private field 'printBtn' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:21:	ImmutableField: Private field 'printBtn' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	ImmutableField: Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:22:	ImmutableField: Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:24:	MethodArgumentCouldBeFinal: Parameter 'text' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Print.java:33:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Print.java:35:	LocalVariableCouldBeFinal: Local variable 'job' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:35:	LocalVariableCouldBeFinal: Local variable 'job' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/main/java/nz/ac/massey/cs/shi/Print.java:36:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/main/java/nz/ac/massey/cs/shi/Print.java:40:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Print.java:40:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Print.java:42:	LocalVariableCouldBeFinal: Local variable 'ok' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:42:	LocalVariableCouldBeFinal: Local variable 'ok' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:42:	ShortVariable: Avoid variables with short names like ok
+src/main/java/nz/ac/massey/cs/shi/Print.java:42:	ShortVariable: Avoid variables with short names like ok
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'line' (lines '48'-'58').
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'line' (lines '48'-'58').
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'graphics' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'graphics' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'pageFormat' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'pageFormat' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MethodArgumentCouldBeFinal: Parameter 'pageIndex' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MissingOverride: The method 'print(Graphics, PageFormat, int)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Print.java:48:	MissingOverride: The method 'print(Graphics, PageFormat, int)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'g' (lines '49'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'g' (lines '49'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	ShortVariable: Avoid variables with short names like g
+src/main/java/nz/ac/massey/cs/shi/Print.java:49:	ShortVariable: Avoid variables with short names like g
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'x' (lines '50'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'x' (lines '50'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	ShortVariable: Avoid variables with short names like x
+src/main/java/nz/ac/massey/cs/shi/Print.java:50:	ShortVariable: Avoid variables with short names like x
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'y' (lines '51'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'y' (lines '51'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	ShortVariable: Avoid variables with short names like y
+src/main/java/nz/ac/massey/cs/shi/Print.java:51:	ShortVariable: Avoid variables with short names like y
+src/main/java/nz/ac/massey/cs/shi/Print.java:52:	TooFewBranchesForASwitchStatement: A switch with less than three branches is inefficient, use a if statement instead.
+src/main/java/nz/ac/massey/cs/shi/Print.java:52:	TooFewBranchesForASwitchStatement: A switch with less than three branches is inefficient, use a if statement instead.
+src/main/java/nz/ac/massey/cs/shi/Print.java:55:	LocalVariableCouldBeFinal: Local variable 'arr' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:55:	LocalVariableCouldBeFinal: Local variable 'arr' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:56:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'index' (lines '56'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:56:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'index' (lines '56'-'64').
+src/main/java/nz/ac/massey/cs/shi/Print.java:56:	UseShortArrayInitializer: Array initialization can be written shorter
+src/main/java/nz/ac/massey/cs/shi/Print.java:56:	UseShortArrayInitializer: Array initialization can be written shorter
+src/main/java/nz/ac/massey/cs/shi/Print.java:57:	LocalVariableCouldBeFinal: Local variable 'line' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:57:	LocalVariableCouldBeFinal: Local variable 'line' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:58:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Print.java:58:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/cs/shi/Print.java:61:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Print.java:61:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Print.java:65:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:65:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Print.java:65:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Print.java:65:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:21:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:21:	CommentRequired: Header comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	FieldNamingConventions: The field name 'pnl_mian' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	FieldNamingConventions: The field name 'pnl_mian' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pnl_mian' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:23:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pnl_mian' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	FieldNamingConventions: The field name 'lbl_help' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	FieldNamingConventions: The field name 'lbl_help' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_help' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:24:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_help' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	FieldNamingConventions: The field name 'lbl_find' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	FieldNamingConventions: The field name 'lbl_find' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_find' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:25:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_find' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	FieldNamingConventions: The field name 'lbl_replace' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	FieldNamingConventions: The field name 'lbl_replace' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_replace' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:26:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_replace' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	FieldNamingConventions: The field name 'lbl_path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	FieldNamingConventions: The field name 'lbl_path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_path' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:27:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_path' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	FieldNamingConventions: The field name 'txt_find' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	FieldNamingConventions: The field name 'txt_find' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'txt_find' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:28:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'txt_find' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	FieldNamingConventions: The field name 'txt_replace' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	FieldNamingConventions: The field name 'txt_replace' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'txt_replace' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:29:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'txt_replace' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	FieldNamingConventions: The field name 'btn_sub' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	FieldNamingConventions: The field name 'btn_sub' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_sub' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:30:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_sub' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	FieldNamingConventions: The field name 'btn_reset' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	FieldNamingConventions: The field name 'btn_reset' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_reset' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:31:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_reset' is not final.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:32:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:32:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:33:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:33:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:34:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/nz/ac/massey/cs/shi/Replace.java:34:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/nz/ac/massey/cs/shi/Replace.java:34:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:34:	CommentRequired: Field comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:35:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/cs/shi/Replace.java:35:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/cs/shi/Replace.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:44:	ConstructorCallsOverridableMethod: Overridable method 'userInit' called during object construction
+src/main/java/nz/ac/massey/cs/shi/Replace.java:44:	ConstructorCallsOverridableMethod: Overridable method 'userInit' called during object construction
+src/main/java/nz/ac/massey/cs/shi/Replace.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:46:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:65:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:72:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	MethodNamingConventions: The instance method name 'btnsub_ActionEvent' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	MethodNamingConventions: The instance method name 'btnsub_ActionEvent' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:87:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:90:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/nz/ac/massey/cs/shi/Replace.java:90:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/nz/ac/massey/cs/shi/Replace.java:91:	AvoidDuplicateLiterals: The String literal "Error" appears 5 times in this file; the first occurrence is on line 91
+src/main/java/nz/ac/massey/cs/shi/Replace.java:91:	AvoidDuplicateLiterals: The String literal "Error" appears 5 times in this file; the first occurrence is on line 91
+src/main/java/nz/ac/massey/cs/shi/Replace.java:93:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:93:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:94:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/nz/ac/massey/cs/shi/Replace.java:94:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/nz/ac/massey/cs/shi/Replace.java:97:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:97:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:99:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:99:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:102:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/nz/ac/massey/cs/shi/Replace.java:102:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/nz/ac/massey/cs/shi/Replace.java:103:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:103:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	MethodNamingConventions: The instance method name 'btnreset_ActionEvent' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	MethodNamingConventions: The instance method name 'btnreset_ActionEvent' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:109:	ShortVariable: Avoid variables with short names like e
+src/main/java/nz/ac/massey/cs/shi/Replace.java:114:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:114:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:114:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:114:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'br' (lines '115'-'123').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'br' (lines '115'-'123').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'br' (lines '115'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'br' (lines '115'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	ShortVariable: Avoid variables with short names like br
+src/main/java/nz/ac/massey/cs/shi/Replace.java:115:	ShortVariable: Avoid variables with short names like br
+src/main/java/nz/ac/massey/cs/shi/Replace.java:120:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:120:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	CloseResource: Ensure that resources like this FileReader object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	LocalVariableCouldBeFinal: Local variable 'fileReader' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:122:	LocalVariableCouldBeFinal: Local variable 'fileReader' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:124:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sbf' (lines '124'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:124:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sbf' (lines '124'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:124:	LocalVariableCouldBeFinal: Local variable 'sbf' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:124:	LocalVariableCouldBeFinal: Local variable 'sbf' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	AssignmentInOperand: Avoid assignments in operands
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tmp' (lines '126'-'126').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tmp' (lines '126'-'126').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tmp' (lines '126'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tmp' (lines '126'-'158').
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	NullAssignment: Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:126:	NullAssignment: Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:128:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Replace.java:128:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Replace.java:129:	AvoidReassigningLoopVariables: Avoid reassigning the loop control variable 'tmp'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:129:	AvoidReassigningLoopVariables: Avoid reassigning the loop control variable 'tmp'
+src/main/java/nz/ac/massey/cs/shi/Replace.java:129:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Replace.java:129:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	CloseResource: Ensure that resources like this BufferedWriter object are closed after use
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	LocalVariableCouldBeFinal: Local variable 'bw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	LocalVariableCouldBeFinal: Local variable 'bw' could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	ShortVariable: Avoid variables with short names like bw
+src/main/java/nz/ac/massey/cs/shi/Replace.java:133:	ShortVariable: Avoid variables with short names like bw
+src/main/java/nz/ac/massey/cs/shi/Replace.java:149:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:149:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:150:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:150:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/nz/ac/massey/cs/shi/Replace.java:155:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:155:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/cs/shi/Replace.java:159:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:159:	CommentRequired: Public method and constructor comments are required
+src/main/java/nz/ac/massey/cs/shi/Replace.java:159:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/cs/shi/Replace.java:159:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '22'-'22').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '22'-'22').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:22:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:23:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'file' (lines '23'-'40').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:23:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'file' (lines '23'-'40').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:23:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:23:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:25:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:25:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:25:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:25:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:26:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '26'-'28').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:26:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '26'-'28').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:28:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:28:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '28'-'40').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:28:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '28'-'40').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:29:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:29:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:33:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:33:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:34:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:34:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:35:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:35:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '44'-'44').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '44'-'44').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:44:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:45:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'file' (lines '45'-'63').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:45:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'file' (lines '45'-'63').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:45:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:45:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:47:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:47:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:47:	ShortVariable: Avoid variables with short names like sb
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:47:	ShortVariable: Avoid variables with short names like sb
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:48:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:48:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:48:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:48:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:49:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '49'-'51').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:49:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '49'-'51').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:51:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:51:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:51:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '51'-'63').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:51:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '51'-'63').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:52:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:52:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:56:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:56:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:56:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:56:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:58:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:58:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:59:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:59:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:60:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:60:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	CommentRequired: Public method and constructor comments are required
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '67'-'67').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'file' (lines '67'-'67').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:67:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:68:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:68:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bw' (lines '70'-'81').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:70:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bw' (lines '70'-'81').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:70:	ShortVariable: Avoid variables with short names like bw
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:70:	ShortVariable: Avoid variables with short names like bw
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:72:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:72:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:72:	ShortVariable: Avoid variables with short names like sb
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:72:	ShortVariable: Avoid variables with short names like sb
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:73:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:73:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:73:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:73:	ShortVariable: Avoid variables with short names like br
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:74:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '74'-'76').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:74:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '74'-'76').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:76:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:76:	AssignmentInOperand: Avoid assignments in operands
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:76:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '76'-'97').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:76:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '76'-'97').
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:77:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:77:	SystemPrintln: System.out.println is used
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:81:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:81:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:82:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:84:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:84:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:85:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:85:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:86:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:86:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:92:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/nz/ac/massey/cs/shi/GuiTest.java:92:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
