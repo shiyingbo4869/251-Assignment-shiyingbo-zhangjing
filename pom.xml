@@ -1,72 +1,158 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  
-  <groupId>159251assignment1</groupId>
-  <artifactId>159251assignment1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  
-  <name>159251assignment1</name>
-  <url>http://maven.apache.org</url>
-  
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
- 	<dependencies>
-      
-      <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>freemarker_xdocxreport</groupId>
+
+<artifactId>freemarker_xdocxreport</artifactId>
+
+<packaging>pom</packaging>
+
+<version>1.0-SNAPSHOT</version>
+
+
+<modules>
+
+<module>freemarker_xdocxreport-example</module>
+
+</modules>
+
+
+<dependencies>
+
+
 <dependency>
-    <groupId>commons-beanutils</groupId>
-    <artifactId>commons-beanutils</artifactId>
-    <version>1.9.3</version>
-</dependency>
-      
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-collections4</artifactId>
-    <version>4.4</version>
+
+<groupId>junit</groupId>
+
+<artifactId>junit</artifactId>
+
+<version>4.11</version>
+
+<scope>test</scope>
+
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+
+
+
 <dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.6</version>
+
+<groupId>org.apache.pdfbox</groupId>
+
+<artifactId>pdfbox</artifactId>
+
+<version>1.8.16</version>
+
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<!-- https://mvnrepository.com/artifact/fr.opensagres.xdocreport/fr.opensagres.xdocreport.document -->
+
+
+
 <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-lang3</artifactId>
-    <version>3.0</version>
-</dependency>
-  
- <!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
-<dependency>
-    <groupId>net.sf.ezmorph</groupId>
-    <artifactId>ezmorph</artifactId>
-    <version>1.0.6</version>
-</dependency>
-      		
-<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-<dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
-    <version>4.0.1</version>
+
+<groupId>fr.opensagres.xdocreport</groupId>
+
+<artifactId>fr.opensagres.xdocreport.document</artifactId>
+
+<version>2.0.2</version>
+
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+
 <dependency>
-    <groupId>net.sf.json-lib</groupId>
-    <artifactId>json-lib</artifactId>
-    <version>2.4</version>
+
+<groupId>com.alibaba</groupId>
+
+<artifactId>fastjson</artifactId>
+
+<version>1.2.47</version>
+
 </dependency>
 
-    </dependencies>
-  
-  
+
+<dependency>
+
+<groupId>org.json</groupId>
+
+<artifactId>json</artifactId>
+
+<version>20180130</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+
+
+
+<dependency>
+
+<groupId>commons-beanutils</groupId>
+
+<artifactId>commons-beanutils</artifactId>
+
+<version>1.8.0</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+
+
+
+<dependency>
+
+<groupId>commons-collections</groupId>
+
+<artifactId>commons-collections</artifactId>
+
+<version>3.2.1</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+
+
+
+<dependency>
+
+<groupId>commons-lang</groupId>
+
+<artifactId>commons-lang</artifactId>
+
+<version>2.5</version>
+
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+
+
+
+<dependency>
+
+<groupId>commons-logging</groupId>
+
+<artifactId>commons-logging</artifactId>
+
+<version>1.1.1</version>
+
+</dependency>
+
+
+<dependency>
+
+<groupId>net.sf.json-lib</groupId>
+
+<artifactId>json-lib</artifactId>
+
+<version>2.4</version>
+
+<classifier>jdk15</classifier>
+
+</dependency>
+
+</dependencies>
+
 </project>
