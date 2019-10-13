@@ -42,7 +42,7 @@ public class Jtatext extends JFrame{
 		JMenu search = new JMenu("Search");
 		JMenu view = new JMenu("View");
 		JMenu help = new JMenu("Help");
-		
+		 
 		//Adds a menu to the menu bar
 		mBar.add(file);
 		mBar.add(search);
