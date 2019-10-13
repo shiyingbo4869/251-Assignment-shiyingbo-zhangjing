@@ -11,7 +11,7 @@ import java.io.IOException;
 import org.junit.Test;
 
 /**
- * ≤‚ ‘
+ * test
  * @author Shi Yingbo  Zhang Jing
  *
  */
@@ -39,7 +39,7 @@ public class GuiTest {
 	//File search and replace
 	@Test
 	public void searchReplace(){
-		File file = new File("src/Jtatext/test.txt"); 
+		File file = new File("test.txt"); 
 		//try resource,Automatic release program is executed
 		StringBuilder sb = new StringBuilder("");
 		try (BufferedReader br = new BufferedReader(new FileReader(file))){
@@ -62,7 +62,7 @@ public class GuiTest {
 	//File string replacement save
 	@Test
 	public void replaceSave(){
-		File file = new File("src/Jtatext/test.txt"); 
+		File file = new File("test.txt"); 
 		
 		BufferedWriter bw = null;
 		//try resource,Automatic release program is executed
