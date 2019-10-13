@@ -1,87 +1,72 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
   <groupId>159251assignment1</groupId>
   <artifactId>159251assignment1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
+  <name>159251assignment1</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+ 	<dependencies>
       
-      <plugin>				
-      		<groupId>org.apache.commons-beanutils</groupId>				
-      		<artifactId>commons-beanutils</artifactId>				
-      		<version>1.9.3</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
+      <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.3</version>
+</dependency>
+      
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.4</version>
+</dependency>
 
-      <plugin>				
-      		<groupId>org.apache.commons-collections4</groupId>				
-      		<artifactId>commons-collections4</artifactId>				
-      		<version>4.4</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
 
-      <plugin>				
-      		<groupId>org.apache.commons-io</groupId>				
-      		<artifactId>commons-io</artifactId>				
-      		<version>2.6</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.0</version>
+</dependency>
+  
+ <!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
+<dependency>
+    <groupId>net.sf.ezmorph</groupId>
+    <artifactId>ezmorph</artifactId>
+    <version>1.0.6</version>
+</dependency>
+      		
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.0.1</version>
+</dependency>
 
-      <plugin>				
-      		<groupId>org.apache.commons-lang3</groupId>				
-      		<artifactId>commons-lang3</artifactId>				
-      		<version>3.0</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
+<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+<dependency>
+    <groupId>net.sf.json-lib</groupId>
+    <artifactId>json-lib</artifactId>
+    <version>2.4</version>
+</dependency>
 
-      <plugin>				
-      		<groupId>org.apache.ezmorph</groupId>				
-      		<artifactId>ezmorph</artifactId>				
-      		<version>1.0.6</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
-
-      <plugin>				
-      		<groupId>org.apache.httpclient</groupId>				
-      		<artifactId>httpclient</artifactId>				
-      		<version>4.0.1</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
-
-      <plugin>				
-      		<groupId>org.apache.json-lib</groupId>				
-      		<artifactId>json-lib-2.4-jdk15</artifactId>				
-      		<version>2.4</version>				
-      		<configuration>					
-      			<encoding>UTF-8</encoding>				
-      		</configuration>			
-      </plugin>
-
- 
-    </plugins>
-  </build>
+    </dependencies>
+  
   
 </project>
