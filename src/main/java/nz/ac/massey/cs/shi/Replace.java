@@ -45,43 +45,43 @@ public class Replace extends JFrame {
 	}
 	public void userInit() {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// Set to close the frame while closing the program
-		this.setSize(500, 300);// 设置框架大小为长500,宽200
-		this.setResizable(false);// 设置框架不可以改变大小
-		this.setTitle("Search Replace");// 设置框架标题
-		this.pnl_mian.setLayout(null);// 设置面板布局管理
-		this.lbl_help.setText("Search Replace");// 设置标签标题
-		this.lbl_find.setText("search:");
+		this.setSize(500, 300);// set frame size
+		this.setResizable(false);
+		this.setTitle("Search Replace");
+		this.pnl_mian.setLayout(null);// set frame layout
+		this.lbl_help.setText("Search Replace");
+		this.lbl_find.setText("search:");// set search frame
 		this.lbl_replace.setText("replace:");
 		this.btn_sub.setText("confirm");
 		this.btn_reset.setText("reset");
-		this.lbl_help.setBounds(200, 25, 100, 21);// 设置标签x坐标120,y坐标20,长60,宽20
+		this.lbl_help.setBounds(200, 25, 100, 21);
 		this.lbl_find.setBounds(100, 80, 60, 20);
 		this.lbl_replace.setBounds(100, 110, 60, 25);
 		this.txt_find.setBounds(150, 80, 200, 20);
 		this.txt_replace.setBounds(150, 110, 200, 20);
 		this.btn_sub.setBounds(130, 180, 80, 20);
-		this.btn_sub.addActionListener(new ActionListener()// 匿名类实现ActionListener接口
+		this.btn_sub.addActionListener(new ActionListener()
 				{
 					public void actionPerformed(ActionEvent e) {
 						btnsub_ActionEvent(e);
 					}
 				});
 		this.btn_reset.setBounds(245, 180, 80, 20);
-		this.btn_reset.addActionListener(new ActionListener()// 匿名类实现ActionListener接口
+		this.btn_reset.addActionListener(new ActionListener()
 				{
 					public void actionPerformed(ActionEvent e) {
 						btnreset_ActionEvent(e);
 					}
 				});
-		this.pnl_mian.add(lbl_help);// 加载标签到面板
+		this.pnl_mian.add(lbl_help);
 		this.pnl_mian.add(lbl_find);
 		this.pnl_mian.add(lbl_replace);
 		this.pnl_mian.add(txt_find);
 		this.pnl_mian.add(txt_replace);
 		this.pnl_mian.add(btn_sub);
 		this.pnl_mian.add(btn_reset);
-		this.add(pnl_mian);// 加载面板到框架
-		this.setVisible(true);// 设置框架可显
+		this.add(pnl_mian);
+		this.setVisible(true);
 	}
  
 	public void btnsub_ActionEvent(ActionEvent e) {
@@ -124,12 +124,12 @@ public class Replace extends JFrame {
 			StringBuffer sbf = new StringBuffer("");
 			try {
 				for (String tmp = null; (tmp = br.readLine()) != null; tmp = null) {
-					// 在这里做替换操作
+					// Do the substitution operation
 					if (tmp.contains(find)) {
 						tmp = tmp.replaceAll(find, replace);
 						sbf.append(tmp);
 						sbf.append(System.getProperty("line.separator"));
-						// 文件的重新写入
+						// A rewrite of a file
 						BufferedWriter bw = new BufferedWriter(new FileWriter(
 								path));
 						bw.write(sbf.toString());

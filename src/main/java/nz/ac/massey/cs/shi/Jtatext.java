@@ -5,26 +5,46 @@ package nz.ac.massey.cs.shi;
 	 * @version 1.1.1
 	 * @date 2019-10-08
 	 */
-	import java.awt.Graphics;
-	import java.text.SimpleDateFormat;
-	import java.util.Date;
-	import java.util.Timer;
-	import java.util.TimerTask;
-	import javax.swing.JFrame;
-	import javax.swing.JPanel;
-	import java.awt.*;
-	import java.awt.event.ActionEvent;
-	import java.awt.event.ActionListener;
-	import java.awt.event.InputEvent;
-	import java.awt.event.ItemEvent;
-	import java.awt.event.ItemListener;
-	import java.io.BufferedReader;
-	import java.io.BufferedWriter;
-	import java.io.File;
-	import java.io.FileReader;
-	import java.io.FileWriter;
-	import java.io.IOException;
-	import javax.swing.*;
+import java.awt.Graphics;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import javax.swing.*;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import java.io.UnsupportedEncodingException;
+import java.util.List;
+ 
+import net.sf.ezmorph.bean.MorphDynaBean;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 	 
 	public class Jtatext extends JFrame{
 		public static void main(String args[]){
@@ -40,18 +60,18 @@ package nz.ac.massey.cs.shi;
 			
 			super("Test Editor   " + new Date());
 			
-			//创建菜单栏(JMenuBar)对象
+			//Create a JMenuBar object
 			JMenuBar mBar = new JMenuBar();
-			//在JFrame等容器中设置菜单栏对象，即将菜单栏添加到框架容器中
+			//Set menu bar objects in containers such as JFrame, adding the menu bar to the frame container
 			this.setJMenuBar(mBar);
 			
-			//创建菜单对象
+			//Create  JMenu object
 			JMenu file = new JMenu("File");
 			JMenu search = new JMenu("Search");
 			JMenu view = new JMenu("View");
 			JMenu help = new JMenu("Help");
 			
-			//将菜单添加到菜单栏中
+			//Adds a menu to the menu bar
 			mBar.add(file);
 			mBar.add(search);
 			mBar.add(view);
@@ -62,10 +82,10 @@ package nz.ac.massey.cs.shi;
 		    //add(workArea);
 		    add(imgScrollPane,BorderLayout.CENTER);  
 		    
-		    //定义打开和保存对话框  
+		    //Definition open and save dialog box 
 		    final FileDialog openDia;
 			final FileDialog saveDia;  
-			//默认模式为 FileDialog.LOAD  
+		
 	        openDia = new FileDialog(this,"Open",FileDialog.LOAD);  
 	        saveDia = new FileDialog(this,"Save AS",FileDialog.SAVE);  
 		  
@@ -73,7 +93,7 @@ package nz.ac.massey.cs.shi;
 		    JMenuItem item1_1 = new JMenuItem("New");
 		    item1_1.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
-		    		//清空文本 
+		    		//clean text
 		    		 workArea.setText("");
 		    	}
 		    });
@@ -81,21 +101,21 @@ package nz.ac.massey.cs.shi;
 		    item1_2.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
 		    		openDia.setVisible(true);
-		    		String dirPath = openDia.getDirectory();//获取文件路径  
-	                String filename = openDia.getFile();//获取文件名称  
+		    		String dirPath = openDia.getDirectory();
+	                String filename = openDia.getFile();  
 	                
-	              //如果打开路径 或 目录为空 则返回空  
+	              //Returns null if the open path or directory is empty 
 	                if(dirPath == null || filename == null){
 	                	return;
 	                }
 	                
-	                workArea.setText("");//清空文本
+	                workArea.setText("");
 	                
 	                File fileO = new File(dirPath,filename); 
 	                
 	                try{
 	                	BufferedReader bufr = new BufferedReader(new FileReader(fileO));
-	                	//设置文本字体颜色
+	                	//set text font color
 	                	if(filename.endsWith(".java")){
 	                		workArea.setForeground(Color.BLUE);
 	                	}
@@ -114,7 +134,7 @@ package nz.ac.massey.cs.shi;
 	                		workArea.append(line + "\r\n");
 	                	}
 	                	
-	                	bufr.close(); //关闭文本
+	                	bufr.close(); 
 	                }catch(IOException er1){
 	                	throw new RuntimeException("File read failed!"); 
 	                }
@@ -144,6 +164,11 @@ package nz.ac.massey.cs.shi;
 		    		}catch(IOException er){
 		    			throw new RuntimeException("File save failed!"); 
 		    		}
+		    		String text = workArea.getText();
+		    		System.out.println(text);
+		    		System.out.println(text.contains("\n"));
+		    		System.out.println(text.contains("\r\n"));
+		    		new Print(text);
 		    	}
 		    });
 		    JMenuItem item1_4 = new JMenuItem("Save AS");
@@ -169,6 +194,11 @@ package nz.ac.massey.cs.shi;
 		    		}catch(IOException er){
 		    			throw new RuntimeException("File save failed!"); 
 		    		}
+		    		String text = workArea.getText();
+		    		System.out.println(text);
+		    		System.out.println(text.contains("\n"));
+		    		System.out.println(text.contains("\r\n"));
+		    		new Print(text);
 		    	}
 		    });
 		    JMenuItem item1_5 = new JMenuItem("Quit");
@@ -185,7 +215,7 @@ package nz.ac.massey.cs.shi;
 
 		    JMenuItem item2_4 = new JMenuItem("Paste");
 		    
-		    //添加键盘快捷键(全选)
+		    //Add keyboard shortcuts, selectAll
 		    item2_1.setAccelerator(KeyStroke.getKeyStroke('A', InputEvent.CTRL_MASK));
 		    item2_1.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
@@ -193,41 +223,42 @@ package nz.ac.massey.cs.shi;
 		    		workArea.copy();
 		    	}
 		    });
-		    //复制
+		    //copy
 		    item2_3.setAccelerator(KeyStroke.getKeyStroke('C', InputEvent.CTRL_MASK));
 		    item2_3.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
 		    		workArea.copy();
 		    	}
 		    });
-		    //粘贴
+		    //paste
 		    item2_4.setAccelerator(KeyStroke.getKeyStroke('V', InputEvent.CTRL_MASK));
 		    item2_4.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
 		    		workArea.paste();
 		    	}
 		    });
-		    //截切
+		    //cut
 		    item2_2.setAccelerator(KeyStroke.getKeyStroke('X', InputEvent.CTRL_MASK));
 		    item2_2.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
 		    		workArea.cut();
 		    	}
 		    });
-		    
+		    // search replace
 		    JMenuItem item3_1 = new JMenuItem("search replace");
 		    item3_1.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent event){
 		    		new Replace();
 		    	}
 		    });
+		    //line wrap
 		    final JMenuItem item3_2 = new JMenuItem("Word wrap");
 		    item3_2.addActionListener(new ActionListener(){
 		    	public void actionPerformed(ActionEvent e){
 		    		Object source = e.getSource();
 		    		
 		    		if(source == item3_2)
-		    			workArea.setLineWrap(true);    //自动换行
+		    			workArea.setLineWrap(true);    
 		    		else if(source != item3_2)
 		    			workArea.setLineWrap(false);
 		    	}
@@ -256,14 +287,69 @@ package nz.ac.massey.cs.shi;
 		    	}
 		    });
 		    
-		    //在菜单中添加菜单项
+		    //Adds a menu item to a menu
 		    file.add(item1_1);file.add(item1_2);file.add(item1_3);file.add(item1_4);file.add(item1_5);
 		    view.add(item2_1);view.add(item2_2);view.add(item2_3);view.add(item2_4);
 	        search.add(item3_1);search.add(item3_2);
 		    help.add(item4_1);help.add(item4_2);help.add(item4_3);
 		    	    
-		}//构造方法结束 
-		
+		}
+		public class Util {
+			public String ReadFile(String Path){
+				BufferedReader reader = null;
+				String laststr = "";
+				try{
+					FileInputStream fileInputStream = new FileInputStream(Path);
+					InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "UTF-8");
+					reader = new BufferedReader(inputStreamReader);
+					String tempString = null;
+					while((tempString = reader.readLine()) != null){
+						laststr += tempString;
+					}
+					reader.close();
+				}catch(IOException e){
+					e.printStackTrace();
+				}finally{
+					if(reader != null){
+						try {
+							reader.close();
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+					}
+				}
+				return laststr;
+			}
+
+		}
+
+	public class JsonTest {
+		@SuppressWarnings({ "static-access", "deprecation", "unchecked" })
+		public <MorphDynaBean> void main(String[] args){
+			String JsonContext = new Util().ReadFile("s.json");
+			JSONArray jsonArray = JSONArray.fromObject(JsonContext);
+			/*String s= java.net.URLDecoder.decode(JsonContext, "utf-8");
+			JSONObject jsonArray = new JSONObject();*/
+	 
+			int size = jsonArray.size();
+			System.out.println("Size: " + size);
+			for(int  i = 0; i < size; i++){
+				JSONObject jsonObject = jsonArray.getJSONObject(i);
+				System.out.println("name=" + jsonObject.get("name"));
+				System.out.println("package_name=" + jsonObject.get("package_name"));
+				System.out.println("check_version=" + jsonObject.get("check_version"));
+				
+			}
+			List<MorphDynaBean> listObject = jsonArray.toList(jsonArray);
+			for(int i = 0, j = listObject.size(); i < j ; i++){
+				System.out.println(listObject.get(i));
+			}
+			for(MorphDynaBean temp: listObject){
+				System.out.println(((net.sf.ezmorph.bean.MorphDynaBean) temp).get("name"));
+			}
+		}
+	}
+
 		
 		
 			
